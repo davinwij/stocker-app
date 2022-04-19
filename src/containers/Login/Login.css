@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.img-cover {
+  width: 50%;
+  height: 1000px;
+  background-image: url("../../assets/coverLogin.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -250px;
+}
+
+.img-cover img {
+  width: 100px;
+  margin-top: 220px;
+}
+
+.text {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.mb {
+  margin-bottom: 25px;
+}
+
+.para {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.login {
+  width: 50%;
+  height: 1000px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.text-right {
+  margin-bottom: 400px;
+  text-align: center;
+}
+
+.r-color {
+  color: #3aaf9f;
+}
+
+.mt {
+  margin-top: 50px;
+  color: #b3b7b6;
+}
+
+.email {
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  background-color: rgba(190, 190, 190, 0.123);
+  border-radius: 5px;
+  font-size: 12px;
+  padding-left: 60px;
+  color: rgb(92, 92, 92);
+}
+
+.password {
+  margin-top: 15px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  background-color: rgba(190, 190, 190, 0.123);
+  border-radius: 5px;
+  font-size: 12px;
+  padding-left: 60px;
+  color: rgb(92, 92, 92);
+}
+
+.btn {
+  margin-top: 50px;
+  padding: 12px 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: #3aaf9f;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 75%;
+}
+
+.btn::after {
+  color: #3aaf9f67;
+}
+
+form img {
+  position: absolute;
+  width: 20px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
